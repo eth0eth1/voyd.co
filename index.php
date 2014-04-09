@@ -1,13 +1,13 @@
 <?php
 class foo
 {
-  function do_foo()
+  function do_foo($in)
   {
-    echo "Doing foo.";
+    echo "Foo $in";
   }
 }
 
-$bar = new foo;
+$bar = new foo("Test");
 
 $bar->do_foo();
 
