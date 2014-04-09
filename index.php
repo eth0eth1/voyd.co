@@ -1,3 +1,8 @@
+<?php
+
+echo "<h1>Test</h2>"
+
+?>
 <html>
 	<head>
 	</head>
