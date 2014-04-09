@@ -7,9 +7,9 @@ class foo
   }
 }
 
-$bar = new foo("Test");
+$bar = new foo();
 
-$bar->do_foo();
+$bar->do_foo("Test");
 
 //Test
 
