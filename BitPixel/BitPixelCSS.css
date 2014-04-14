@@ -51,7 +51,7 @@ img.SplashImage
 	padding:0px;
 }
 
-H1.MainTitle
+h1
 {
 	color:#fe9a08;
 	font:"beer";
@@ -61,7 +61,7 @@ H1.MainTitle
 	white-space:nowrap;
 }
 
-H1.MenuLink
+ul.menu
 {
 	color:#fe9a08;
 	font:"Beer";
