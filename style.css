@@ -1,1 +1,3 @@
-.nogap {border=0px}
+.nogap {
+  border:none;
+  }
