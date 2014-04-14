@@ -74,10 +74,10 @@ ul.menu
 	/* text-wrap:none; */
 	list-style-type:none;
 	padding:none;
+}
+li
+{
 	display:inline;
-	
-	
-	
 }
 
 H2.ArticleSubHeading
