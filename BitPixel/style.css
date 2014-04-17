@@ -32,6 +32,15 @@ nav.topnav li {
 	padding:1em;
 }
 
+nav.lownav *,a:link,a:visited,a:hover,a:active {
+	color:#ffffff;
+	text-decoration:none;
+	text-align:centre;
+	padding-left:10%;
+	padding-right:10%;
+	
+}
+
 div.content {
 	background-color:#222222;
 	width:60%;
