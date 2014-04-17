@@ -10,12 +10,12 @@ h1 {
 	color:#fe9a08;
 }
 
-div.topnav  ul {
+nav.topnav  ul {
 	list-style-type:none;
 	margin:0px;
 	padding:0px;
 }
 
-div.topnav li {
+nav.topnav li {
 	display:inline;
 }
