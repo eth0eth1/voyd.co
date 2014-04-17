@@ -12,6 +12,15 @@ h1 {
 	text-decoration:underline;
 }
 
+nav  ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+nav li {
+	display:inline;
+}
+
 nav.topnav *,a:link,a:visited,a:hover,a:active {
 	font-size:1.2em;
 	text-align:center;
@@ -19,14 +28,7 @@ nav.topnav *,a:link,a:visited,a:hover,a:active {
 	text-decoration:none;
 }
 
-nav  ul {
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-}
-
 nav.topnav li {
-	display:inline;
 	padding:1em;
 }
 
