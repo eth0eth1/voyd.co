@@ -19,7 +19,7 @@ nav.topnav *,a:link,a:visited,a:hover,a:active {
 	text-decoration:none;
 }
 
-nav.topnav  ul {
+nav  ul {
 	list-style-type:none;
 	margin:0px;
 	padding:0px;
