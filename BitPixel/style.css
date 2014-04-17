@@ -21,11 +21,12 @@ nav li {
 	display:inline;
 }
 
-nav.topnav *,a:link,a:visited,a:hover,a:active {
+nav.topnav a:link,a:visited,a:hover,a:active {
 	font-size:1.2em;
 	text-align:center;
 	color:#fe9a08;
 	text-decoration:none;
+	font-style:strong;
 }
 
 nav.topnav li {
@@ -36,6 +37,7 @@ nav.lownav a:link,a:visited,a:hover,a:active {
 	color:#ffffff;
 	text-decoration:none;
 	text-align:centre;
+	font-style:strong;
 }
 
 div.content {
