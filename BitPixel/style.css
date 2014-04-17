@@ -26,4 +26,5 @@ nav.topnav  ul {
 
 nav.topnav li {
 	display:inline;
+	padding:1em;
 }
