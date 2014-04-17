@@ -21,7 +21,7 @@ nav li {
 	display:inline;
 }
 
-nav.topnav a:link,a:visited,a:hover,a:active {
+nav.topnav *,a:link,a:visited,a:hover,a:active {
 	font-size:1.2em;
 	text-align:center;
 	color:#fe9a08;
