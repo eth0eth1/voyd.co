@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 body {
-	background-color:#101010;
+	background-color:#333333;
+	color:#ffffff;
 }
 
 h1 {
@@ -27,4 +28,14 @@ nav.topnav  ul {
 nav.topnav li {
 	display:inline;
 	padding:1em;
+}
+
+div.content {
+	background-color:#222222;
+	width:60%;
+}
+
+.splash {
+	float:right;
+	clear:right
 }
