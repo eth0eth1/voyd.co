@@ -33,6 +33,9 @@ nav.topnav li {
 div.content {
 	background-color:#222222;
 	width:60%;
+	/*centre align*/
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .splash {
