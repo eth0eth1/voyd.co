@@ -46,6 +46,7 @@ div.content {
 	/*centre align*/
 	margin-left:auto;
 	margin-right:auto;
+	padding:10px;
 }
 
 .splash {
