@@ -30,7 +30,7 @@ nav.topnav *,a:link,a:visited,a:hover,a:active {
 	text-decoration:none;
 }
 
-nav.topnav li {
+nav.topnav ul {
 	padding:1em;
 }
 
