@@ -47,11 +47,12 @@ nav.lownav a:link,a:visited,a:hover,a:active {
 
 div.content {
 	background-color:#222222;
-	width:60%;
+	width:70%;
+	padding:1em;
 	/*centre align*/
 	margin-left:auto;
 	margin-right:auto;
-	padding:0.1em;
+	
 }
 
 .splash {
