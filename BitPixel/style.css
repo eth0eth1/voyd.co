@@ -16,8 +16,8 @@ h1 {
 
 nav  ul {
 	list-style-type:none;
-	margin:0px;
-	padding:0px;
+	margin:0em;
+	padding:0em;
 }
 nav li {
 	display:inline;
@@ -34,6 +34,11 @@ nav.topnav ul {
 	padding:1em;
 }
 
+nav.topnav li {
+	padding-left:1em;
+	padding-right:1em;
+}
+
 nav.lownav a:link,a:visited,a:hover,a:active {
 	color:#ffffff;
 	text-decoration:none;
@@ -46,7 +51,7 @@ div.content {
 	/*centre align*/
 	margin-left:auto;
 	margin-right:auto;
-	padding:10px;
+	padding:0.1em;
 }
 
 .splash {
