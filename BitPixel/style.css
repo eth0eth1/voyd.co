@@ -39,12 +39,6 @@ nav.topnav li {
 	padding-right:1em;
 }
 
-nav.lownav a:link,a:visited,a:hover,a:active {
-	color:#ffffff;
-	text-decoration:none;
-	text-align:centre;
-}
-
 div.content {
 	background-color:#222222;
 	width:70%;
