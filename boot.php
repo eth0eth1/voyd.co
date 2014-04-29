@@ -14,10 +14,10 @@ echo "<ul>";
 foreach ($in_dir as $contents) {
 	
 	# Only display if content is a directory
-	if ( is_dir($contents) ) {
+	if ( is_dir($content) ) {
 		# Exclude directories within the exclusions
-		if ( !in_array($contents, $exclude) ) {
-			echo "<li>$contents</li>";
+		if ( !in_array($content, $exclude) ) {
+			echo "<li><a link=\"$content\">$content</a></li>";
 		}
 	}
 }
