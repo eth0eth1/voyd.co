@@ -1,5 +1,5 @@
 <?php
-#echo "Test";
+#print "Test";
 
 # Scan current directory
 # Populate variable with contents
@@ -10,17 +10,17 @@ $exclude=array(".","..",".git","font","img","css","js");
 
 
 # Build unordered list of folders
-echo "<ul>";
+print "<ul>";
 foreach ($in_dir as $content) {
 	
 	# Only display if content is a directory
 	if ( is_dir($content) ) {
 		# Exclude directories within the exclusions
 		if ( !in_array($content, $exclude) ) {
-			echo "<li><a href=\"$content\">$content</a></li>";
+			print "<li><a href=\"$content\">$content</a></li>";
 		}
 	}
 }
-echo "</ul>";
+print "</ul>";
 
 ?>
