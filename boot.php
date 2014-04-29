@@ -17,7 +17,7 @@ foreach ($in_dir as $content) {
 	if ( is_dir($content) ) {
 		# Exclude directories within the exclusions
 		if ( !in_array($content, $exclude) ) {
-			echo "<li><a link=\"$content\">$content</a></li>";
+			echo "<li><a href=\"$content\">$content</a></li>";
 		}
 	}
 }
