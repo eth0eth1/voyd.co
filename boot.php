@@ -11,7 +11,7 @@ $exclude=array(".","..",".git","font","img","css","js");
 
 # Build unordered list of folders
 echo "<ul>";
-foreach ($in_dir as $contents) {
+foreach ($in_dir as $content) {
 	
 	# Only display if content is a directory
 	if ( is_dir($content) ) {
