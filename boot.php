@@ -3,9 +3,14 @@
 
 $dirs = scandir(".");
 
-foreach ($dirs as $dir) {
-  echo "$dir";
+echo "<ul>";
+
+foreach ($dirs as $scan) {
+  if is_dir($scan) {
+	echo "<li>$scan</li>";
+	}
 }
 
+echo "</ul>";
 
 ?>
