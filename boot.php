@@ -1,7 +1,7 @@
 <?php
 echo "Test";
 
-$dirs = scandir(.);
+$dirs = scandir(".");
 
 echo "$dirs";
 
