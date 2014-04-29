@@ -1,9 +1,11 @@
 <?php
-echo "Test";
+#echo "Test";
 
 $dirs = scandir(".");
 
-echo "$dirs";
+foreach ($dirs as $dir) {
+  echo "$dir";
+}
 
 
 ?>
