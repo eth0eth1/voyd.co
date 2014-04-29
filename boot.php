@@ -15,7 +15,8 @@ foreach ($in_dir as $contents) {
 	
 	# Only display if content is a directory
 	if ( is_dir($contents) ) {
-		if ( in_array($contents, $exclude) ) {
+		# Exclude directories within the exclusions
+		if ( !in_array($contents, $exclude) ) {
 			echo "<li>$contents</li>";
 		}
 	}
