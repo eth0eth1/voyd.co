@@ -6,5 +6,6 @@ class Indexer {
 	public function displayVar() {
 		echo $this->test;
 	}
+}
 
 ?>
