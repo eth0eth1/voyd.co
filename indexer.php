@@ -1,12 +1,14 @@
 <?php
 class Indexer {
 
-	# Scan current directory
-	# Populate variable with contents
-	private $in_dir = scandir(".");
-
 	# Build list of folders to exclude
 	private $exclude=array(".","..",".git","font","img","css","js");
+	
+	# Scan current directory
+	# Populate variable with contents
+	private $in_dir=scandir(".");
+
+	
 
 
 	public function listDirs {
