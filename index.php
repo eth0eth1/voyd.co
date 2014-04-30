@@ -28,6 +28,6 @@ print "</ul>";
 
 $indexer = new Indexer;
 
-echo $indexer->sayTesting();
+$indexer->sayTesting();
 
 ?>
