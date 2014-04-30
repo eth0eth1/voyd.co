@@ -2,12 +2,12 @@
 class Indexer {
 
 	public function listDirs() {
-	# Build list of folders to exclude
-	private $exclude=array(".","..",".git","font","img","css","js");
-	
-	# Scan current directory
-	# Populate variable with contents
-	private $in_dir=scandir(".");
+		# Build list of folders to exclude
+		$exclude=array(".","..",".git","font","img","css","js");
+		
+		# Scan current directory
+		# Populate variable with contents
+		$in_dir=scandir(".");
 	
 		# Build unordered list of folders
 		echo "<ul>";
