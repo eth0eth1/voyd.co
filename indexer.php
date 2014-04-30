@@ -1,7 +1,10 @@
 <?php
 class Indexer {
 
-	var $test = "Testing";
-	echo "$test";
+	private $test = "Testing";
+	
+	public function displayVar() {
+		echo $this->test;
+	}
 
 ?>
