@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	</head>
 	<body>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		::before
 			<div class="container">
@@ -47,5 +48,5 @@
 		</footer>
 	</body>
 	<!--Bootstrap JS placed at end of document to help with load times -->
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	
 </html>
