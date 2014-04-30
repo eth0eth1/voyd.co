@@ -1,7 +1,7 @@
 <?php
 class Indexer {
 
-	public function listDirs {
+	public function listDirs() {
 	# Build list of folders to exclude
 	private $exclude=array(".","..",".git","font","img","css","js");
 	
