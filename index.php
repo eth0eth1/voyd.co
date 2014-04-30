@@ -1,4 +1,7 @@
 <?php
+
+require "indexer.php";
+
 #print "Test";
 
 # Scan current directory
@@ -22,5 +25,9 @@ foreach ($in_dir as $content) {
 	}
 }
 print "</ul>";
+
+$indexer = new Indexer;
+
+$indexer();
 
 ?>
