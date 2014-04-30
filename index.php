@@ -8,19 +8,15 @@
 	<body>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
-		::before
 			<div class="container">
-			::before
 				<div class="navbar-header">
-				::before
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar.collapse">
 						<span class="sr-only">Toggle navigation</span>
-						<span> class="icon-bar"></span>
-						<span> class="icon-bar"></span>
-						<span> class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="#">Projects</a>
-					::after
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
@@ -28,9 +24,7 @@
 					</ul>
 				</div>
 				<!-- nav-collapse -->
-				::after
 			</div>
-			::after
 		</div>
 		<header>
 			<h1> Projects </h1>
