@@ -6,7 +6,6 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	</head>
 	<body>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -40,7 +39,10 @@
 		<footer>
 			<p> Footer </p>
 		</footer>
+		<!--Bootstrap JS placed at end of document to help with load times -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	</body>
-	<!--Bootstrap JS placed at end of document to help with load times -->
+	
 	
 </html>
