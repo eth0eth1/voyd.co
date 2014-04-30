@@ -3,7 +3,7 @@ class Indexer {
 
 	private $test = "Testing";
 	
-	public function displayVar() {
+	public function sayTesting() {
 		return $this->test;
 	}
 }
