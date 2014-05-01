@@ -25,8 +25,8 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li>Test</li>
-								<li>Test2</li>
+								<li><a href="#">Test</a></li>
+								<li><a href="#">Test</a></li>
 							</ul>
 						</li>
 					</ul>
