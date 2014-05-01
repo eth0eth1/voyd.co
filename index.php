@@ -6,36 +6,42 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse" role="navigation">
-			<div class="container-fluid">
-				<!-- Branding and mobile toggle menu -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Projects</a>
-				</div>
-				
-				<!-- Collect the nav links and bits for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Test</a></li>
-								<li><a href="#">Test</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<!-- nav-collapse -->
-			</div>
-		</nav>
 		<header>
-			<h1> Projects </h1>
+			<nav class="navbar navbar-inverse" role="navigation">
+				<div class="container-fluid">
+					<!-- Branding and mobile toggle menu -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Voyd.co</a>
+					</div>
+					
+					<!-- Collect the nav links and bits for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+							<!--	<ul class="dropdown-menu">
+									<li><a href="#">Test</a></li>
+									<li><a href="#">Test</a></li>
+								</ul> -->
+								
+								<?php
+									require "indexer.php";
+									$indexer = new Indexer;
+									$indexer->listDirs();
+								?>
+								
+							</li>
+						</ul>
+					</div>
+					<!-- nav-collapse -->
+				</div>
+			</nav>
 		</header>
 		<article>
 		<!-- Pull list of projects based on folders -->
