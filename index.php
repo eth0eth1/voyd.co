@@ -25,12 +25,12 @@
 						<ul class="nav navbar-nav">
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-		<!-- Pull list of projects based on folders -->
-			<?php
-			require "indexer.php";
-			$indexer = new Indexer;
-			$indexer->listDirs();
-			?>
+								<!-- Pull list of projects based on folders -->
+								<?php
+									require "indexer.php";
+									$indexer = new Indexer;
+									$indexer->listDirs();
+								?>
 							</li>
 						</ul>
 					</div>
@@ -42,7 +42,6 @@
 
 		</article>
 		<footer>
-			<p> Footer </p>
 		</footer>
 		<!--Bootstrap JS placed at end of document to help with load times -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
