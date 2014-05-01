@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- Custom Overrides -->
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<header>
