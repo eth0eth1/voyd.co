@@ -25,10 +25,12 @@
 						<ul class="nav navbar-nav">
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Test</a></li>
-									<li><a href="#">Test</a></li>
-								</ul>
+		<!-- Pull list of projects based on folders -->
+			<?php
+			require "indexer.php";
+			$indexer = new Indexer;
+			$indexer->listDirs();
+			?>
 							</li>
 						</ul>
 					</div>
@@ -37,12 +39,7 @@
 			</nav>
 		</header>
 		<article>
-		<!-- Pull list of projects based on folders -->
-			<?php
-			require "indexer.php";
-			$indexer = new Indexer;
-			$indexer->listDirs();
-			?>
+
 		</article>
 		<footer>
 			<p> Footer </p>
