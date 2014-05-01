@@ -10,9 +10,7 @@ class Indexer {
 		$in_dir=scandir(".");
 	
 		# Build unordered list of folders
-		echo <<<EOL
-		<ul class="dropdown-menu">
-		EOL;
+		echo "<ul class=\"dropdown-menu\">";
 		foreach ($in_dir as $content) {
 			
 			# Only display if content is a directory
