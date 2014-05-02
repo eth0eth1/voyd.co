@@ -3,7 +3,7 @@
 	<head>
 	</head>
 	<body>
-		<p> Test </p>
+		<p> Test Hard Code </p>
 		<?php
 			require "nav.php";
 			$navbar = new Nav();

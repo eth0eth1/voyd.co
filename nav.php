@@ -6,8 +6,8 @@
  
 class Nav {
 
-	function __construct() {
-		echo "Test";
+	public function __construct() {
+		echo "<p> Testing 123 </p>";
 	}
 
 }
