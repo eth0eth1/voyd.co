@@ -14,7 +14,7 @@ class Nav {
 
 	# Build base componants
 	#!! Replace #bs-example-navbar-collapse-1 with php variable
-		$navbar = <<<EOL
+		echo <<<EOL
 		<nav class="navbar navbar-inverse" role="navigation">
 		<div class="container-fluid">
 		<div class="navbar-header">
