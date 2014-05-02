@@ -30,7 +30,6 @@
 								<?php
 									require "indexer.php";
 									$indexer = new Indexer("dropdown-menu");
-									$indexer->ul_class;
 									$indexer->listDirs();
 								?>
 							</li>
