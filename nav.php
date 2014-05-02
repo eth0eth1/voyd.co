@@ -1,5 +1,5 @@
 <?php 
-error_reporting(-1);
+# error_reporting(-1);
 
 # Construct:
 # ---------------------
@@ -11,7 +11,6 @@ error_reporting(-1);
 class Nav {
 
 	public function __construct() {
-	
 
 	# Build base componants
 	#!! Replace #bs-example-navbar-collapse-1 with php variable
