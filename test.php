@@ -10,6 +10,7 @@
 		<p> Test Hard Code </p>
 		<?php
 			require "nav.php";
+			require "indexer.php";
 			$navbar = new Nav();
 		?>
 		

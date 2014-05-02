@@ -1,5 +1,6 @@
 <?php 
 
+
 # Construct:
 # ---------------------
 # Pass JS ID
@@ -11,7 +12,7 @@ class Nav {
 
 	public function __construct() {
 	
-		require "indexer.php";
+
 	# Build base componants
 	#!! Replace #bs-example-navbar-collapse-1 with php variable
 		echo "<nav class=\"navbar navbar-inverse\" role=\"navigation\">";
