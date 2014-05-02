@@ -5,7 +5,7 @@
 	<body>
 		<p> Test </p>
 		<?php
-			require nav.php;
+			require "nav.php";
 			$navbar = new Nav();
 		?>
 	</body>
