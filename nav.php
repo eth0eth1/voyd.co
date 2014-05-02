@@ -14,21 +14,22 @@ class Nav {
 
 	# Build base componants
 	#!! Replace #bs-example-navbar-collapse-1 with php variable
-		echo <<<EOL
+		echo <<<EOF
 		<nav class="navbar navbar-inverse" role="navigation">
 		<div class="container-fluid">
 		<div class="navbar-header">
-		
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+EOF;
+		echo "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">";
 
+		echo <<<EOF
 		<span class="sr-only">Toggle navigation</span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 
 		</button>
-EOL;
-		
+EOF;
+
 		# Navbar brand
 		#!! Populate with php var
 		echo "<a class=\"navbar-brand\" href=\"http://voyd.co.uk\">Voyd.co</a>";
