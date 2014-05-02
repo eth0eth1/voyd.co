@@ -20,6 +20,7 @@ class Nav {
 		<div class="navbar-header">
 		
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
 		<span class="sr-only">Toggle navigation</span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
@@ -30,31 +31,31 @@ EOL;
 		
 		# Navbar brand
 		#!! Populate with php var
-		"<a class="navbar-brand" href="http://voyd.co.uk">Voyd.co</a>
+		echo "<a class=\"navbar-brand\" href=\"http://voyd.co.uk\">Voyd.co</a>";
 		
 		# Close navbar header
-		"</div>
+		echo "</div>";
 		
 		# Start navbar contents
 		#!! Replace bs-example-navbar-collapse-1 with php variable
-		"<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		echo "<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">";
 		
 		#!! Replace hard coded menu with array of arrays
-		"<ul class="nav navbar-nav">
-		"<li class="dropdown">
+		echo "<ul class=\"nav navbar-nav\">";
+		echo "<li class=\"dropdown\">";
 		
-		"<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+		echo "<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Projects <b class=\"caret\"></b></a>";
 		
 		$indexer = new Indexer("dropdown-menu");
 		$indexer->listDirs();
 		
 		# And now to wrap up
 		
-		"</li>
-		"</ul>
-		"</div>
-		"</div>
-		"</nav>
+		echo "</li>";
+		echo "</ul>";
+		echo "</div>";
+		echo "</div>";
+		echo "</nav>";
 		
 	}	
 	
