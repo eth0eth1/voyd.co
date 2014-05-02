@@ -9,6 +9,7 @@
 	<body>
 		<p> Test Hard Code </p>
 		<?php
+		error_reporting(-1);
 			require "nav.php";
 			require "indexer.php";
 			$navbar = new Nav();
