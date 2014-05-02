@@ -2,7 +2,7 @@
 class Indexer {
 	
 	# Variable to be given as the html ul class
-	var $ul_class
+	var $ul_class;
 
 	# Construct Indexer
 	function __construct($ul_class) {
