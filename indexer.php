@@ -1,5 +1,13 @@
 <?php
 class Indexer {
+	
+	# Variable to be given as the html ul class
+	var $ul_class
+
+	# Construct Indexer
+	function __construct($ul_class) {
+		$this->ul_class = $ul_class;
+	}
 
 	public function listDirs() {
 		# Build list of folders to exclude
@@ -10,7 +18,8 @@ class Indexer {
 		$in_dir=scandir(".");
 	
 		# Build unordered list of folders
-		echo "<ul class=\"dropdown-menu\">";
+		# 'dropdown-menu' as test value
+		echo "<ul class=\"$this->ul_class\">";
 		foreach ($in_dir as $content) {
 			
 			# Only display if content is a directory
