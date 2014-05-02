@@ -29,8 +29,8 @@
 								<!-- Pull list of projects based on folders -->
 								<?php
 									require "indexer.php";
-									$indexer = new Indexer;
-									$indexer->ul_class = "dropdown-menu";
+									$indexer = new Indexer("dropdown-menu");
+									$indexer->ul_class;
 									$indexer->listDirs();
 								?>
 							</li>
