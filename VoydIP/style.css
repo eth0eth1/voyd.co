@@ -9,6 +9,10 @@ font-weight:lighter;
 float: left;
 }
 
+#speak {
+display: block;
+}
+
 #yap {
 float: right;
 clear: right;
