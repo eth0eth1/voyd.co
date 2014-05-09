@@ -6,7 +6,7 @@
 	</head>
 	<body>
 	<div class="container">
-		<h1 id="yap"> Yap! <?php echo $_SERVER['REMOTE_ADDR'];?> </h1>
+		<h1 id="yap"> Yap! </h1>
 		<h1 id="ip"> <?php echo $_SERVER['REMOTE_ADDR'];?> </h1>
 		<img id="fox" src="img/fox.png">
 	</div>
