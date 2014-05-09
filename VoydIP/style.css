@@ -1,12 +1,7 @@
 body {
-background: 
-	linear-gradient(135deg, #636363 25%, transparent 25%) -5px 0,
-	linear-gradient(225deg, #636363 25%, transparent 25%) -5px 0,
-	linear-gradient(315deg, #636363 25%, transparent 25%),
-	linear-gradient(45deg, #636363 25%, transparent 25%)
-	;
-background-size: 100px 10px;
 background-color: #6a6a6a;
+font-family:"Open Sans","sans-serif";
+font-weight:lighter;
 }
 
 #fox {
