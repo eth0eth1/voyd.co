@@ -5,12 +5,7 @@ font-family:"Open Sans","sans-serif";
 font-weight:lighter;
 }
 
-#fox {
-float: left;
-}
-
-#speak {
-display: block;
+.container {
 }
 
 #yap {
@@ -28,4 +23,9 @@ text-decoration:none;
 color:#F27D16;
 text-shadow: 0px 2px 3px #111111;
 font-size: 4em;
+}
+
+#fox {
+float: left;
+clear: both;
 }
