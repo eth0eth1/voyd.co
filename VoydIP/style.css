@@ -16,6 +16,18 @@ height:100%;
 margin:0em;
 }
 
+a:link, a:visited, a:hover, a:active {
+font-family:"Open Sans","sans-serif";
+font-weight:lighter;
+font-size:6vw;
+color: #22c794;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
 #overlay {
 overflow:hidden;
 Xbackground-image: url("img/fox.png");
