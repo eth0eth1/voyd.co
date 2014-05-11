@@ -6,13 +6,11 @@
 	</head>
 	<body>
 	<div id="overlay">
-		<!--<img id="fox" src="img/fox.png">-->
-		<div id="mask">
-			<div id="blur"></div>	
-			<div id="yap">
-				This is some text This is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some textThis is some text
-			</div>
-		</div>
+	
+	<div id="mask">
+	<span id="ip"> 127.0.0.1 </span>
+	</div>
+	
 	</div>
 	</body>
 </html>

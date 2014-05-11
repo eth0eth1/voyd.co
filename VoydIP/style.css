@@ -19,33 +19,16 @@ margin: 0em;
 height: 100%;
 }
 
-#blur {
-width:100%;
-height:100%;
-display:block;
-background-image: url("img/fox.png");
-background-position: centre top;
-background-size: 1vw auto;
-z-index:1;
-/*float: right;
-clear: right;
-text-decoration:none;
-color:#F27D16;
-/*text-shadow: 0px 2px 3px #111111;
-font-size: 4em;
-padding: 4em; */
-filter: blur(2px); 
--webkit-filter: blur(2px);
--moz-filter: blur(2px);
--o-filter: blur(2px); 
--ms-filter: blur(2px);
+#mask {
+margin-left:auto;
+margin-right:auto;
+width:50%;
+background-color: #FFFFFF;
+opacity: 0.2;
+padding:1em;
 }
 
-#mask {
-width:50%;
-border: 2px solid;
-border-color: #FFFFFF;
-border-radius: 2em;
-z-index:10;
-overflow: hidden;
+#ip {
+font-size:3em;
+color: #FF0000;
 }
