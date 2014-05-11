@@ -8,7 +8,7 @@
 	<!-- <img class="lazy" data-original="img/fox.png" width="100%" height="100%"> -->
 		<div class="lazy" id="overlay" data-src="img/fox.png">
 			<div id="mask">
-				<span id="ip"> 127.0.0.1 </span>
+				<span id="ip"> <?php echo $_SERVER['REMOTE_ADDR']; ?> </span>
 			</div>
 		</div>
 		<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
