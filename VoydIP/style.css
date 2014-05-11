@@ -22,7 +22,7 @@ height: 100%;
 #mask {
 margin-left:auto;
 margin-right:auto;
-text-align:centre;
+text-align:center;
 background-color: rgba(0,0,0,0.5);
 }
 
