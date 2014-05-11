@@ -1,3 +1,7 @@
+::selection {
+background: d41512;
+}
+
 body,html {
 overflow:hidden;
 background-image: url("img/fox6.png");
