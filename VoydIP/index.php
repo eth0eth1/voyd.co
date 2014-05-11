@@ -8,7 +8,7 @@
 	<div id="overlay">
 		<!--<img id="fox" src="img/fox.png">-->
 		<div id="yap">
-			<div>
+			<div id="mask">
 			This is some test text!
 			</div>
 		</div>
