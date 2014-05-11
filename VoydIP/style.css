@@ -28,3 +28,12 @@ font-size: 4em;
 #fox {
 width: 100%;
 }
+
+#overlay {
+overflow:hidden;
+background-image: url("img/fox.png");
+background-position: center top;
+background-size: 100% auto;
+border: 0em;
+margin: 0em;
+}
