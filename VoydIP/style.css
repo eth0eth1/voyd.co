@@ -3,9 +3,7 @@ overflow:hidden;
 background-image: url("img/fox.png");
 font-family:"Open Sans","sans-serif";
 font-weight:lighter;
-}
-
-.container {
+max-width:100%;
 }
 
 #yap {
