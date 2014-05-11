@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
-		<!-- <script src="js/jquery.lazyload.min.js" type="text/javascript"></script> -->
+		<script src="js/jquery.lazy.min.js" type="text/javascript"></script>
 		<script>
 			jQuery(document).ready(function() {
 			jQuery("div.lazy").lazy();
