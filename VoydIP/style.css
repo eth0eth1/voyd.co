@@ -23,11 +23,17 @@ height: 100%;
 margin-left:auto;
 margin-right:auto;
 width:50%;
-background-color: rgba(34,34,34,0.75);
+background-color: rgba(34,34,34,0.5);
 padding:1em;
 }
 
 #ip {
 font-size:3em;
-color: #FF0000;
+color: #07ff3c;
+text-align:centre;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 }
