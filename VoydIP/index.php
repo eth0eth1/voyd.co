@@ -7,9 +7,10 @@
 	<body>
 	<div id="overlay">
 		<!--<img id="fox" src="img/fox.png">-->
-		<div id="blur">
+		<div id="mask">
+			<div id="blur"></div>	
 			<div id="yap">
-				This is some test text!
+				This is some text
 			</div>
 		</div>
 	</div>
