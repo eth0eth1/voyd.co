@@ -24,6 +24,8 @@ width:100%;
 height:100%;
 display:block;
 background-image: url("img/fox.png");
+background-position: centre top;
+background-size: 100% auto;
 z-index:1;
 /*float: right;
 clear: right;
@@ -40,8 +42,8 @@ filter: blur(2px);
 }
 
 #mask {
-width:50%;
-height:50%;
+width:500px;
+height:200px;
 border: 2px solid;
 border-color: #FFFFFF;
 border-radius: 2em;
