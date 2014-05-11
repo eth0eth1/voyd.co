@@ -11,7 +11,7 @@
 				<span id="ip"> 127.0.0.1 </span>
 			</div>
 		</div>
-		<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
-		<script src="jquery.lazyload.min.js" type="text/javascript"></script>
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script src="js/jquery.lazyload.min.js" type="text/javascript"></script>
 	</body>
 </html>
