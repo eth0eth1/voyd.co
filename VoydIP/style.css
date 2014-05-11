@@ -6,6 +6,7 @@ font-weight:lighter;
 }
 
 .container {
+background-image: url("img/fox.png");
 }
 
 #yap {
