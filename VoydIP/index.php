@@ -13,5 +13,10 @@
 		</div>
 		<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
 		<script src="js/jquery.lazyload.min.js" type="text/javascript"></script>
+		<script>
+		$(function() {
+			$("img.lazy").lazyload();
+		});
+		</script>
 	</body>
 </html>
