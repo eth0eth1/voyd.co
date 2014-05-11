@@ -5,8 +5,8 @@
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300">
 	</head>
 	<body>
-	<img class="lazy" data-original="img/fox.png" width="100%" height="100%">
-		<div id="overlay">
+	<!-- <img class="lazy" data-original="img/fox.png" width="100%" height="100%"> -->
+		<div class="lazy" id="overlay" data-src="img/fox.png">
 			<div id="mask">
 				<span id="ip"> 127.0.0.1 </span>
 			</div>
