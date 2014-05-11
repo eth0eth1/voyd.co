@@ -17,7 +17,7 @@ margin:0em;
 }
 
 a:link, a:visited, a:hover, a:active {
-Xfont-family:"Arial","Helvetica","sans-serif";
+font-family:"Open Sans","Arial","Helvetica","sans-serif";
 font-weight:lighter;
 font-size:6vw;
 color: #22c794;
@@ -50,7 +50,6 @@ background-color: rgba(0,0,0,0.8);
 
 #ip {
 font-size:6vw;
-font-family:"Open Sans","sans-serif";
 color: #22c794;
 
   -webkit-filter: blur(1px);
