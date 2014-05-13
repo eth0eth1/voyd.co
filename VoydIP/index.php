@@ -2,8 +2,8 @@
 <html>
 	<head>
 	<link rel="stylesheet" href="style.css">
-	<link rel=stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300">
-	<link rel=icon href="img/icon.png">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300">
+	<link rel="icon" href="img/icon.png">
 	</head>
 	<body>
 	<!-- <img class="lazy" data-original="img/fox.png" width="100%" height="100%"> -->
