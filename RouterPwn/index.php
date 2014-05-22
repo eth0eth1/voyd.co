@@ -1,12 +1,14 @@
-<html><head>
-    <meta charset="utf-8">
-    <title>Network IP Address via ipcalf.com</title>
-<style type="text/css"></style></head><body>
-Your network IP is: <h1 id="list"></h1> Make the locals proud.
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Internal IP Address</title>
+		<style type="text/css"></style>
+	</head>
 
-
-
-<script>
+	<body>
+		Your network IP is: 
+		<h1 id="list"></h1>
+		<script>
 
 // NOTE: window.RTCPeerConnection is "not a constructor" in FF22/23
 var RTCPeerConnection = /*window.RTCPeerConnection ||*/ window.webkitRTCPeerConnection || window.mozRTCPeerConnection;
@@ -32,7 +34,7 @@ if (RTCPeerConnection) (function () {
         if (newAddr in addrs) return;
         else addrs[newAddr] = true;
         var displayAddrs = Object.keys(addrs).filter(function (k) { return addrs[k]; });
-        document.getElementById('list').textContent = displayAddrs.join(" or perhaps ") || "n/a";
+        document.getElementById('list').textContent = displayAddrs;
     }
     
     function grepSDP(sdp) {
@@ -56,6 +58,6 @@ if (RTCPeerConnection) (function () {
 }
 
 </script>
+	</body>
 
-
-</body></html>
+</html>
