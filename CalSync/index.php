@@ -5,7 +5,7 @@ require_once 'Google/Client.php';
 require_once 'Google/Service/Calendar.php';
 
 $apiClient = new Google_Client();
-$apiClient->setUseObjects(true);
+
 $service = new Google_Service_Calendar($apiClient);
 
 $calendarListEntry = $service->calendarList->get('calendarId');
