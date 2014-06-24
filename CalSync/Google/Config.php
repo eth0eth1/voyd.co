@@ -75,7 +75,7 @@ class Google_Config
 
           // Simple API access key, also from the API console. Ensure you get
           // a Server key, and not a Browser key.
-          'developer_key' => '',
+          'developer_key' => 'AIzaSyDOadRtNQSUPxtjRGk0qGgxRPSyspj9dfE',
 
           // Other parameters.
           'access_type' => 'online',

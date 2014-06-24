@@ -8,7 +8,7 @@ $apiClient = new Google_Client();
 
 $service = new Google_Service_Calendar($apiClient);
 
-$calendarListEntry = $service->calendarList->get('calendarId');
+$calendarListEntry = $service->calendarList->get('General');
 
 if (isset($_SESSION['oauth_access_token'])) {
   $apiClient->setAccessToken($_SESSION['oauth_access_token']);
