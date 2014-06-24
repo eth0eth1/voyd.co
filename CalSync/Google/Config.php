@@ -69,9 +69,9 @@ class Google_Config
         'Google_Auth_OAuth2' => array(
           // Keys for OAuth 2.0 access, see the API console at
           // https://developers.google.com/console
-          'client_id' => '',
-          'client_secret' => '',
-          'redirect_uri' => '',
+          'client_id' => '233586027539-6l6v3thlict835kbhr6nud7r8nkvollt.apps.googleusercontent.com',
+          'client_secret' => 'kxkLI4r7pF0Wyo5viTpDnPpJ',
+          'redirect_uri' => 'http://www.voyd.co/oauth2callback',
 
           // Simple API access key, also from the API console. Ensure you get
           // a Server key, and not a Browser key.
