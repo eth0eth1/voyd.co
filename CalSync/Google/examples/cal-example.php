@@ -114,8 +114,8 @@ if ($client->getAccessToken()) {
 $calendarList = $cal_service->calendarList->listCalendarList();
 
 echo "OKAY, IM HERE";
-/***
-print_r ($calendarList);
+
+//print_r ($calendarList);
 
 while(true) {
   foreach ($calendarList->getItems() as $calendarListEntry) {
@@ -129,7 +129,6 @@ while(true) {
 	break;
   }
 }
-*************/
 
 }
 
