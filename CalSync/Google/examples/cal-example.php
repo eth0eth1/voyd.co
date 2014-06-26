@@ -147,11 +147,13 @@ if (
     <?php endif ?>
   </div>
 
+  <div class="request">
+  <?php echo "<h1> Test </h1>"; ?>
+  </div>
+  
   <?php if (isset($short)): ?>
     <div class="shortened">
-      <?php var_dump($short);
-		echo "<h1> LA LA LA LA </h1>";
-		?>
+      <?php var_dump($short); ?>
     </div>
   <?php endif ?>
 </div>
