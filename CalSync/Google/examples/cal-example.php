@@ -106,6 +106,8 @@ REVENUE CODE GOES HERE
 
 	$calendarList = $service->calendarList->listCalendarList();
 
+	print_r $calendarList;
+	
 	while(true) {
 	  foreach ($calendarList->getItems() as $calendarListEntry) {
 		echo $calendarListEntry->getSummary();
