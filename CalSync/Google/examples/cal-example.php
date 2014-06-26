@@ -27,9 +27,9 @@ require_once 'Google/Service/Calendar.php';
   the redirect URI is to this page, e.g:
   http://localhost:8080/user-example.php
  ************************************************/
- $client_id = '233586027539-e1ouvkvjnocicbcaappfl85r0caj4gmr.apps.googleusercontent.com';
- $client_secret = 'jcd3QQi_MafU6PKjYbEkYxPU';
- $redirect_uri = 'http://voyd.co/CalSync/Google/examples/user-example.php';
+ $client_id = '233586027539-be1jn7iojghn3cn678s2onueadprnote.apps.googleusercontent.com';
+ $client_secret = 'YTqwT6sF8ZKVq2mO1gFQ4HQX';
+ $redirect_uri = 'http://voyd.co/CalSync/Google/examples/cal-example.php';
 
 /************************************************
   Make an API request on behalf of a user. In
