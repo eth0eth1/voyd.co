@@ -133,7 +133,6 @@ if (
     || $redirect_uri == '<YOUR_REDIRECT_URI>') {
   echo missingClientSecretsWarning();
 }
-echo $test;
 ?>
 <div class="box">
   <div class="request">
@@ -150,7 +149,9 @@ echo $test;
 
   <?php if (isset($short)): ?>
     <div class="shortened">
-      <?php var_dump($short); ?>
+      <?php var_dump($short);
+		echo "<h1> LA LA LA LA </h1>"
+		?>
     </div>
   <?php endif ?>
 </div>
