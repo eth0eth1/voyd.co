@@ -96,10 +96,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
   refreshed if the application has offline access.
  ************************************************/
 if ($client->getAccessToken() && isset($_GET['url'])) {
-/***************************************************
-REVENUE CODE GOES HERE
 
-****************************************************/
   $url = new Google_Service_Urlshortener_Url();
   $url->longUrl = $_GET['url'];
   $short = $service->url->insert($url);
@@ -110,16 +107,15 @@ REVENUE CODE GOES HERE
 }
 
 if ($client->getAccessToken()) {
+/***************************************************
+REVENUE CODE GOES HERE
 
+****************************************************/
 $calendarList = $cal_service->calendarList->listCalendarList();
-
-echo "OKAY, IM HERE";
-
-//print_r ($calendarList);
 
 while(true) {
   foreach ($calendarList->getItems() as $calendarListEntry) {
-	echo $calendarListEntry->getSummary();
+	echo $calendarListEntry->getSummary() . "<br>";
   }
   $pageToken = $calendarList->getNextPageToken();
   if ($pageToken) {
