@@ -141,7 +141,7 @@ if (
     <?php else: ?>
       <form id="url" method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <input name="url" class="url" type="text">
-        <input type="submit" value="Shorten">
+        <input type="submit" value="Shorten2">
       </form>
       <a class='logout' href='?logout'>Logout</a>
     <?php endif ?>
