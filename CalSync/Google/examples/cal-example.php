@@ -106,7 +106,7 @@ REVENUE CODE GOES HERE
 
 	$calendarList = $service->calendarList->listCalendarList();
 
-	echo "OKAY, IM HERE";
+	$test = "OKAY, IM HERE";
 	print_r ($calendarList);
 	
 	while(true) {
@@ -133,6 +133,7 @@ if (
     || $redirect_uri == '<YOUR_REDIRECT_URI>') {
   echo missingClientSecretsWarning();
 }
+echo $test;
 ?>
 <div class="box">
   <div class="request">
