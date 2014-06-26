@@ -136,28 +136,6 @@ if (
   echo missingClientSecretsWarning();
 }
 ?>
-<div class="box">
-  <div class="request">
-    <?php if (isset($authUrl)): ?>
-      <a class='login' href='<?php echo $authUrl; ?>'>Connect Me!</a>
-    <?php else: ?>
-      <form id="url" method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <input name="url" class="url" type="text">
-        <input type="submit" value="Shorten2">
-      </form>
-      <a class='logout' href='?logout'>Logout</a>
-    <?php endif ?>
-  </div>
 
-  <div class="request">
-  <?php echo "<h1> ".$test." </h1>"; ?>
-  </div>
-  
-  <?php if (isset($short)): ?>
-    <div class="shortened">
-      <?php var_dump($short); ?>
-    </div>
-  <?php endif ?>
-</div>
 <?php
 echo pageFooter(__FILE__);
