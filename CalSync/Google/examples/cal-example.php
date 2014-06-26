@@ -150,7 +150,7 @@ if (
   <?php if (isset($short)): ?>
     <div class="shortened">
       <?php var_dump($short);
-		echo "<h1> LA LA LA LA </h1>"
+		echo "<h1> LA LA LA LA </h1>";
 		?>
     </div>
   <?php endif ?>
