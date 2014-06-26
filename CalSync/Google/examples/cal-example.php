@@ -104,26 +104,33 @@ REVENUE CODE GOES HERE
   $url->longUrl = $_GET['url'];
   $short = $service->url->insert($url);
 
-	$calendarList = $service->calendarList->listCalendarList();
-
-	$test = "OKAY, IM HERE";
-	print_r ($calendarList);
-	
-	while(true) {
-	  foreach ($calendarList->getItems() as $calendarListEntry) {
-		echo $calendarListEntry->getSummary();
-	  }
-	  $pageToken = $calendarList->getNextPageToken();
-	  if ($pageToken) {
-		$optParams = array('pageToken' => $pageToken);
-		$calendarList = $service->calendarList->listCalendarList($optParams);
-	  } else {
-		break;
-	  }
-}
 
   
   $_SESSION['access_token'] = $client->getAccessToken();
+}
+
+if ($client->getAccessToken()) {
+
+$calendarList = $service->calendarList->listCalendarList();
+
+echo "OKAY, IM HERE";
+/***
+print_r ($calendarList);
+
+while(true) {
+  foreach ($calendarList->getItems() as $calendarListEntry) {
+	echo $calendarListEntry->getSummary();
+  }
+  $pageToken = $calendarList->getNextPageToken();
+  if ($pageToken) {
+	$optParams = array('pageToken' => $pageToken);
+	$calendarList = $service->calendarList->listCalendarList($optParams);
+  } else {
+	break;
+  }
+}
+*************/
+
 }
 
 echo pageHeader("User Query - URL Shortener");
@@ -148,7 +155,7 @@ if (
   </div>
 
   <div class="request">
-  <?php echo "<h1> $test </h1>"; ?>
+  <?php echo "<h1> ".$test." </h1>"; ?>
   </div>
   
   <?php if (isset($short)): ?>
