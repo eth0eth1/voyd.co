@@ -19,7 +19,6 @@ session_start();
 
 set_include_path("../src/" . PATH_SEPARATOR . get_include_path());
 require_once 'Google/Client.php';
-require_once 'Google/Service/Urlshortener.php';
 require_once 'Google/Service/Calendar.php';
 
 /************************************************
@@ -51,7 +50,6 @@ $client->addScope("https://www.googleapis.com/auth/calendar");
   for the required scopes, and uses that when
   generating the authentication URL later.
  ************************************************/
-$service = new Google_Service_Urlshortener($client);
 $cal_service = new Google_Service_Calendar($client);
 
 /************************************************
@@ -85,50 +83,41 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
   $authUrl = $client->createAuthUrl();
 }
 
+
 /************************************************
-  If we're signed in and have a request to shorten
-  a URL, then we create a new URL object, set the
-  unshortened URL, and call the 'insert' method on
-  the 'url' resource. Note that we re-store the
+  If we're signed in we pull a calendarlist
+  object and loop through it on each calendar
+  getting names.
+
+  Note that we re-store the
   access_token bundle, just in case anything
   changed during the request - the main thing that
   might happen here is the access token itself is
   refreshed if the application has offline access.
  ************************************************/
-if ($client->getAccessToken() && isset($_GET['url'])) {
-
-  $url = new Google_Service_Urlshortener_Url();
-  $url->longUrl = $_GET['url'];
-  $short = $service->url->insert($url);
-
-
-  
-  $_SESSION['access_token'] = $client->getAccessToken();
-}
 
 if ($client->getAccessToken()) {
-/***************************************************
-REVENUE CODE GOES HERE
 
-****************************************************/
-$calendarList = $cal_service->calendarList->listCalendarList();
+	$calendarList = $cal_service->calendarList->listCalendarList();
 
-while(true) {
-  foreach ($calendarList->getItems() as $calendarListEntry) {
-	echo $calendarListEntry->getSummary() . "<br>";
-  }
-  $pageToken = $calendarList->getNextPageToken();
-  if ($pageToken) {
-	$optParams = array('pageToken' => $pageToken);
-	$calendarList = $service->calendarList->listCalendarList($optParams);
-  } else {
-	break;
-  }
+	while(true) {
+	  foreach ($calendarList->getItems() as $calendarListEntry) {
+		echo $calendarListEntry->getSummary() . "<br>";
+	  }
+	  $pageToken = $calendarList->getNextPageToken();
+	  if ($pageToken) {
+		$optParams = array('pageToken' => $pageToken);
+		$calendarList = $service->calendarList->listCalendarList($optParams);
+	  } else {
+		break;
+	  }
+	}
+
+	$_SESSION['access_token'] = $client->getAccessToken();
+
 }
 
-}
-
-echo pageHeader("User Query - URL Shortener");
+echo pageHeader("User Query - Calendar Lister");
 if (
     $client_id == '<YOUR_CLIENT_ID>'
     || $client_secret == '<YOUR_CLIENT_SECRET>'
