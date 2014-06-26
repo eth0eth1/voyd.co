@@ -127,4 +127,5 @@ if (
 ?>
 
 <?php
-echo pageFooter(__FILE__);
+//echo pageFooter(__FILE__);
+?>
