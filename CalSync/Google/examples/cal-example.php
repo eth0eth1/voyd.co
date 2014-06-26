@@ -111,7 +111,7 @@ REVENUE CODE GOES HERE
 
 if ($client->getAccessToken()) {
 
-$calendarList = $service->calendarList->listCalendarList();
+$calendarList = $cal_service->calendarList->listCalendarList();
 
 echo "OKAY, IM HERE";
 /***
