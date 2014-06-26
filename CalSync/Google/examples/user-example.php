@@ -26,9 +26,9 @@ require_once 'Google/Service/Urlshortener.php';
   the redirect URI is to this page, e.g:
   http://localhost:8080/user-example.php
  ************************************************/
- $client_id = '<YOUR_CLIENT_ID>';
- $client_secret = '<YOUR_CLIENT_SECRET>';
- $redirect_uri = '<YOUR_REDIRECT_URI>';
+ $client_id = '233586027539-6l6v3thlict835kbhr6nud7r8nkvollt.apps.googleusercontent.com';
+ $client_secret = 'kxkLI4r7pF0Wyo5viTpDnPpJ';
+ $redirect_uri = 'http://voyd.co/CalSync/Google/examples/user-example.php';
 
 /************************************************
   Make an API request on behalf of a user. In
