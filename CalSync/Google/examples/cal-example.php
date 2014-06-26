@@ -106,6 +106,7 @@ REVENUE CODE GOES HERE
 
 	$calendarList = $service->calendarList->listCalendarList();
 
+	echo "OKAY, IM HERE";
 	print_r $calendarList;
 	
 	while(true) {
