@@ -126,6 +126,15 @@ if (
 }
 ?>
 
+<div class="box">
+  <div class="request">
+    <?php if (isset($authUrl)): ?>
+      <a class='login' href='<?php echo $authUrl; ?>'>Connect Me!</a>
+    <?php else: ?>
+      <a class='logout' href='?logout'>Logout</a>
+    <?php endif ?>
+  </div>
+
 <?php
 //echo pageFooter(__FILE__);
 ?>
