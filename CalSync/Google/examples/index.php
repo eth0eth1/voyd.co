@@ -8,6 +8,7 @@ if (!isWebRequest()) {
 echo pageHeader("PHP Library Examples"); ?>
 <ul>
   <li><a href="simple-query.php">A query using simple API access</a></li>
+  <li><a href="cal-example.php">Dragons thing!, using OAuth 2.0 authentication.</a></li>
   <li><a href="user-example.php">A query for user data, using OAuth 2.0 authentication.</a></li>
   <li><a href="batch.php">An example of combining multiple calls into a batch request</a></li>
   <li><a href="service-account.php">A query using the service account functionality.</a></li>
