@@ -100,7 +100,7 @@ if ($client->getAccessToken()) {
 
 	$calendarList = $cal_service->calendarList->listCalendarList();
 
-	echo "<ul";
+	echo "<ul>";
 	
 	while(true) {
 	  foreach ($calendarList->getItems() as $calendarListEntry) {
