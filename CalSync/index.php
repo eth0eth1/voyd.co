@@ -100,9 +100,11 @@ if ($client->getAccessToken()) {
 
 	$calendarList = $cal_service->calendarList->listCalendarList();
 
+	echo "<ul";
+	
 	while(true) {
 	  foreach ($calendarList->getItems() as $calendarListEntry) {
-		echo $calendarListEntry->getSummary() . "<br>";
+		echo "<li>" . $calendarListEntry->getSummary() . "</li>";
 	  }
 	  $pageToken = $calendarList->getNextPageToken();
 	  if ($pageToken) {
@@ -113,6 +115,8 @@ if ($client->getAccessToken()) {
 	  }
 	}
 
+	echo "</ul>";
+	
 	$_SESSION['access_token'] = $client->getAccessToken();
 
 }
