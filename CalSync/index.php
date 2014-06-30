@@ -17,7 +17,7 @@
 include_once "templates/base.php";
 session_start();
 
-set_include_path("lib" . PATH_SEPARATOR . get_include_path());
+set_include_path("" . PATH_SEPARATOR . get_include_path());
 require_once 'Google/Client.php';
 require_once 'Google/Service/Calendar.php';
 
@@ -28,7 +28,7 @@ require_once 'Google/Service/Calendar.php';
  ************************************************/
  $client_id = '233586027539-be1jn7iojghn3cn678s2onueadprnote.apps.googleusercontent.com';
  $client_secret = 'YTqwT6sF8ZKVq2mO1gFQ4HQX';
- $redirect_uri = 'http://voyd.co/CalSync/Google/examples/cal-example.php';
+ $redirect_uri = 'http://voyd.co/CalSync';
 
 /************************************************
   Make an API request on behalf of a user. In
