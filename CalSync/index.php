@@ -17,7 +17,7 @@
 include_once "templates/base.php";
 session_start();
 
-set_include_path("" . PATH_SEPARATOR . get_include_path());
+set_include_path("lib" . PATH_SEPARATOR . get_include_path());
 require_once 'Google/Client.php';
 require_once 'Google/Service/Calendar.php';
 
