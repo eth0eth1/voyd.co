@@ -3,7 +3,7 @@
 	<head>
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-		<!-- Custom Overrides Test Push -->
+		<!-- Custom Overrides -->
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
