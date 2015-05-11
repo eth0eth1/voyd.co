@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<!-- Bootstrap CSS -->
+		<!-- Bootstrap -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<!-- Custom -->
 		<link rel="stylesheet" href="style.css">
